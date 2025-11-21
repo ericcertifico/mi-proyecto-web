@@ -25,7 +25,8 @@ ul {
 }
 
 img {
+    width: 300px;
     align-items: center;
-    border-radius: 8px;
+    border-radius: 15px;
    
 }

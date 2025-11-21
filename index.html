@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
@@ -11,8 +12,8 @@
     <div>
         <header>
             <h1>Proyecto Git</h1>
-            <img src="../mi-proyecto-web/img/64e79ca5aff2fb7295bfddf9_github-que-es.jpg" alt="">
-            <nav>
+            
+            <nav class="menu">
                 <ul>
                     <li>Sobre Mí</li>
                     <li>Categorías</li>
@@ -22,7 +23,8 @@
         </header>
 
         <main>
-            <section>
+            <img src="../mi-proyecto-web/img/64e79ca5aff2fb7295bfddf9_github-que-es.jpg" alt="">
+            <section class="content-uno">
                 <h2>¿Qué es Git?</h2>
                 <p>Git es un sistema de control de versiones distribuido, creado por Linus Torvalds en 2005.
                     Permite gestionar y llevar un registro de los cambios realizados en archivos de código fuente u
@@ -32,7 +34,7 @@
                     eficiente.</p>
             </section>
             <br>
-            <section>
+            <section class="content-dos">
                 <h2>¿Para qué sirve?</h2>
                 <ul>
                     <li>Control de versiones: Permite guardar versiones sucesivas de un proyecto, ver su
@@ -47,7 +49,7 @@
                         CI/CD, automatizando pruebas e integraciones. </li>
                 </ul>
                 <br>
-                <form action="">
+                <form action="" class="formulario">
                     <label for="nombre">Nombre y Apellidos</label>
                     <input type="text" id="nombre">
                     <label for="correo">Email</label>

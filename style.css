@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(69, 69, 69);
+    color: whitesmoke;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+img {
+    align-items: center;
+}

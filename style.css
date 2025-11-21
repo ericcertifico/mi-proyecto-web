@@ -1,6 +1,6 @@
 body {
-    background-color: rgb(69, 69, 69);
-    color: whitesmoke;
+    background-color: rgb(196, 224, 235);
+    color: rgb(29, 38, 112);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
@@ -10,13 +10,22 @@ header {
     padding: 20px;
 }
 
-
 ul {
     display: flex;
     justify-content: space-evenly;
     gap: 50px;
 }
+.content-tres ul {
+    background-color: rgb(99, 98, 97);
+    color: rgb(246, 246, 246);
+    padding: 20px;
+    border-radius: 15px;
+    list-style: disc; 
+    margin-left: 20px; 
+}
 
 img {
     align-items: center;
+    border-radius: 8px;
+   
 }
